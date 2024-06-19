@@ -28,11 +28,11 @@ function Hero() {
         Raagavendran</h1>
         <h2>Software & Frontend Developer</h2>
       <span>
-        <a href="https://www.twitter.com/" alt="Twitter Icon" target="_blank">
+        <a href="https://www.x.com/ruskmlon" alt="Twitter Icon" >
         <img src={twittericon}/></a>
-        <a href="https://www.github.com/" alt="Github Icon" target="_blank">
+        <a href="https://www.github.com/Raagav07-07" alt="Github Icon" >
         <img src={githubicon}/></a>
-        <a href="https://www.linkedin.com/" alt="Linkedin Icon" target="_blank">
+        <a href="https://www.linkedin.com/in/thiru-raagavendran-s-b-a5744b290" alt="Linkedin Icon" >
         <img src={linkedinicon}/></a>
       </span>
       <p className={styles.description}>With a passion for developing Modern React web apps for commercial buisnesses</p>
