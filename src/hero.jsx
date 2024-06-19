@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './herostyling.module.css';
-import Heroimg from '../../Portfolio/src/assets/hero-img.png';
+import Heroimg from '../src/assets/hero-img.png';
 import sun from '../src/assets/sun.svg';
 import moon from '../src/assets/moon.svg';
 import twitterlight from '../src/assets/twitter-light.svg'
