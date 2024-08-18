@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+flex-direction: row;
+text-align: center;
+padding-left: 40px;
+gap:25px;
+    img{
+        max-width:170px;
+        border-radius: 20px;
+        max-height:150px;
+        
+        background-color: var(--project-card-bg);
+    }
+.HE{
+    text-align: center;
+    
+}
+a{
+    color:#222;
+    width:fit-content;
+    text-decoration: none;
+    transition: transform 200ms ease-in-out;
+}
+
+a:hover{
+transform: scale(0.9);
+}
+}
+.ProjectContainer{
+    display: flex;
+    flex-direction: row;
+   
+    gap:30px;
+    
+}
+@media (width>=800px){
+    .ProjectContainer{
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        padding:0 30px;
+    }
+}
