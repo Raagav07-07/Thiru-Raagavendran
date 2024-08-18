@@ -26,7 +26,7 @@ function Hero() {
       <div className={styles.info}>
         <h1>Thiru<br></br>
         Raagavendran</h1>
-        <h2>Software & Frontend Developer</h2>
+        <h2>Machine Learning & Data Science</h2>
       <span>
         <a href="https://www.x.com/ruskmlon" alt="Twitter Icon" >
         <img src={twittericon}/></a>
@@ -35,7 +35,7 @@ function Hero() {
         <a href="https://www.linkedin.com/in/thiru-raagavendran-s-b-a5744b290" alt="Linkedin Icon" >
         <img src={linkedinicon}/></a>
       </span>
-      <p className={styles.description}>With a passion for developing Modern React web apps for commercial buisnesses</p>
+      <p className={styles.description}>With expertise in developing scalable,data-driven solutions using advanced algorithms.</p>
       <a href={CV} download><button className='hover'>Resume</button></a>
       </div>
     </section>
