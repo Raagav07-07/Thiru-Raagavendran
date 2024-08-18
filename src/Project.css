@@ -1,6 +1,6 @@
 .container{
     display:flex;
-flex-direction: row;
+flex-direction: column;
 text-align: center;
 padding-left: 40px;
 gap:25px;
@@ -29,15 +29,14 @@ transform: scale(0.9);
 .ProjectContainer{
     display: flex;
     flex-direction: row;
-   
+   align-self:center;
     gap:30px;
     
 }
 @media (width>=800px){
     .ProjectContainer{
         flex-direction: row;
-        flex-wrap:wrap;
         justify-content: space-evenly;
-        padding:0 30px;
+        padding:0 20px;
     }
 }
